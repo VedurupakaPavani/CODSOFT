@@ -7,6 +7,7 @@ public class RandomNumber
         int result,guess;
         final int MAX=100;
         boolean CHOICE=false;
+        System.out.println("WELCOME TO NUMBER GAME");
         Scanner number=new Scanner(System.in);
         Random rand=new Random();
         result=rand.nextInt(MAX);
